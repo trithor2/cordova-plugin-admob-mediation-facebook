@@ -11,9 +11,11 @@
     <keywords>admob,mediation,facebook</keywords>
     <license>MIT</license>
 
+    <preference name="ANDROID_SDK_VERSION" default="4.+"/>
+    
     <platform name="android">
-        <framework src="com.facebook.android:audience-network-sdk:4.28.+" />
-        <framework src="com.google.ads.mediation:facebook:4.28.+" />
+        <framework src="com.facebook.android:audience-network-sdk:$ANDROID_SDK_VERSION" />
+        <framework src="com.google.ads.mediation:facebook:$ANDROID_SDK_VERSION" />
     </platform>
 
     <platform name="ios">
